@@ -1,23 +1,4 @@
-This distribution is a replacement for the builtin distribution.
-
-This package contains a selection of subroutines that people have
-expressed would be nice to have in the perl core, but the usage would not
-really be high enough to warrant the use of a keyword, and the size so
-small such that being individual extensions would be wasteful.
-
-After unpacking the distribution, to install this module type
- 
-        perl Makefile.PL
-        make
-        make test
-        make install
-
-KNOWN BUGS
-
-There is a bug in perl5.6.0 with UV's that are >= 1<<31. This will
-show up as tests 8 and 9 of dualvar.t failing
-
-
-Copyright (c) 1997-2006 Graham Barr <gbarr@pobox.com>. All rights reserved.
-This library is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
+Scalar::Util::LooksLikeNumber contains looks_like_number() like Scalar::Util's
+looks_like_number(), except it returns the raw value from the C function.
+Scalar::Util used to do this also, but it returns a booleanized value since
+1.39.
