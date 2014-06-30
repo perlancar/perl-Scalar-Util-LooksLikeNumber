@@ -7,6 +7,6 @@ Util.bs
 ListUtil.c
 *.bak
 .*.swp
-Scalar-List-Utils*
+Scalar-Util-LooksLikeNumber-*
 MYMETA.json
 MYMETA.yml
