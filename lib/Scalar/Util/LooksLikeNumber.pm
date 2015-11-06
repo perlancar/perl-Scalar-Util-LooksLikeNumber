@@ -2,7 +2,7 @@ package Scalar::Util::LooksLikeNumber;
 
 use strict;
 
-our $VERSION    = "1.39.1";
+our $VERSION    = "1.39.2";
 
 require Exporter;
 our @ISA       = qw(Exporter);
